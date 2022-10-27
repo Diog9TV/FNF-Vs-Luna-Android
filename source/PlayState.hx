@@ -1111,7 +1111,7 @@ class PlayState extends MusicBeatState
     add(creditTxt);
 
 		if(ClientPrefs.downScroll) {
-			CheatTxt.y = timeBarBG.y - 78;
+			botplayTxt.y = timeBarBG.y - 78;
 		}
 
 		if(ClientPrefs.downScroll) {

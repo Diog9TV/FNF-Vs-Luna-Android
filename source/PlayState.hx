@@ -1105,13 +1105,13 @@ class PlayState extends MusicBeatState
 		add(botplayTxt);
 
 		creditTxt = new FlxText(876, 648, 348);
-    creditTxt.text = "Ported By NuggetXML";
+    creditTxt.text = "Ported By Ninja";
     creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
     creditTxt.scrollFactor.set();
     add(creditTxt);
 
 		if(ClientPrefs.downScroll) {
-			botplayTxt.y = timeBarBG.y - 78;
+			CheatTxt.y = timeBarBG.y - 78;
 		}
 
 		if(ClientPrefs.downScroll) {
